@@ -9,7 +9,13 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .read {
-        font-size: $content-font-size;
+    font-size: $content-font-size;
+    h3 {
+        float: left;
+    }
+    img {
+        float: left;
+    }
 }
 
 body.page main {
@@ -22,8 +28,8 @@ body.page main {
         color: $link-color;
     }
 
-    hr {
-        width: 50ch;
+    hr.top {
+        width: 50ch !important;
         max-width: 100%;
         margin-left: 0px;
     }
@@ -57,6 +63,8 @@ body.page main {
     img {
         border-radius: 50%;
         width: $sidebar-profile-image-size;
+        height: $sidebar-profile-image-size;
+        object-fit: cover;
     }
 
     .module-border-wrap {

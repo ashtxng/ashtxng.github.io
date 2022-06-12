@@ -6,7 +6,7 @@ html.home {
 }
 
 body.home {
-    background-color: $colorful-background;
+    background: $colorful-background;
     color: $home-text-color;
     height: 100%;
     display: grid;
@@ -21,7 +21,7 @@ body.home {
             height: $home-profile-image-size;
             border-radius: 50%;
             position: relative;
-            background-image: $title-text-gradient;
+            background: $title-text-gradient;
             margin: auto;
             padding: 5px;
         }
@@ -34,10 +34,14 @@ body.home {
             background-clip: text;
             color: transparent;
         }
-
+        h3 {
+            max-width: 50ch;
+        }
         img {
             border-radius: 50%;
             width: $home-profile-image-size;
+            height: $home-profile-image-size;
+            object-fit: cover;
         }
 
     }

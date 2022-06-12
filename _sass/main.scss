@@ -2,13 +2,15 @@
 
 
 // Colors
-$colorful-background: #1d1545;
+/* $colorful-background: repeating-linear-gradient(45deg,
+        #000, #5b4b79 10px, #000 10px); */
+$colorful-background: linear-gradient(#1f182a, #17141b);
 $light-text-color: #000;
 $dark-text-color: #fff;
 $light-blank-background: #fff;
 $dark-blank-background: #1e1e1e;
 $link-color: #0000ff;
-$title-text-gradient: linear-gradient(122deg, rgba(0, 82, 255, 1), rgba(158, 10, 255, 1)); // Also image border
+$title-text-gradient: linear-gradient(90deg, #713183, #ba43db); // Also image border
 $home-text-color: #fff;
 $disabled-text-color: #8080806e;
 $preview-text-color: #797979;
